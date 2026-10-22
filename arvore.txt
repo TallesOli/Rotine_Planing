@@ -1,0 +1,28 @@
+loja-lumina/
+│
+├── .gitignore                     # [INICIAL] Arquivos que o Git deve ignorar
+├── README.md                      # [INICIAL] Documentação principal
+├── requirements.txt               # [INICIAL] Dependências do Python
+├── app.py                         # [INICIAL] Entrada do backend Flask
+│
+├── data/
+│   └── products.json              # [INICIAL] Produtos demonstrativos
+│
+├── templates/
+│   ├── index.html                 # [INICIAL] Página inicial da loja
+│   ├── produtos.html              # [POSTERIOR] Catálogo de produtos
+│   ├── carrinho.html              # [POSTERIOR] Carrinho de compras
+│   ├── checkout.html              # [POSTERIOR] Etapa de finalização
+│   └── pedido.html                # [POSTERIOR] Resumo do pedido
+│
+├── static/
+│   ├── css/
+│   │   └── style.css              # [INICIAL] Estilos visuais
+│   └── js/
+│       └── script.js              # [INICIAL] Interações da interface
+│
+├── tests/                         # [POSTERIOR] Criar ao iniciar os testes
+│   └── test_app.py                # [POSTERIOR] Testes básicos do backend
+│
+└── notebooks/                     # [OPCIONAL] Criar se usar o Colab
+    └── exploracao_produtos.ipynb  # [OPCIONAL] Experimentos com Python
